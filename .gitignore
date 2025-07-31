@@ -1,0 +1,24 @@
+# IntelliJ IDEA project files
+.idea/             # Entire IDE project folder (settings, caches)
+*.iws                # Workspace files
+*.iml                # Module files
+*.ipr                # Project files (legacy)
+
+# Build output directories (Java, Kotlin, etc.)
+out/                 # Default IDEA build output
+**/out/              # Out folders in all submodules
+
+# Gradle specific (if using Gradle)
+.gradle/
+build/
+
+# Maven specific (if using Maven)
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
