@@ -24,7 +24,7 @@ class ListNode {
 
      public ListNode reverseKGroup(ListNode head, int k){
 
-        ListNode dummy = head;
+        // ListNode dummy = head;
         ListNode ans = reverseNodes(head, head.next, k);
         return ans ;
 

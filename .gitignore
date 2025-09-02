@@ -22,3 +22,8 @@ target/
 # OS-specific files
 .DS_Store
 Thumbs.db
+*.class
+.idea
+out
+
+.vscode
